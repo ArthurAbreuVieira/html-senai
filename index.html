@@ -21,7 +21,9 @@
             <td bgcolor="#fff">
                 De um presente increvel para a sua mãe assim como ela. </br>
                 Nós da <strong>Três Corações</strong> estamos te presenteando com essa linda cafeteira.</br>
-                <strong>Corra, são poucas unidades</strong>
+                <font color="#f00" face="arial">
+                    <strong>Corra, são poucas unidades</strong>
+                </font>
             </td>
         </tr>
 
@@ -40,22 +42,6 @@
                                 </td>
                                 <td>
                                     <input type="text" id="name" name="name" placeholder="Digite seu nome" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label> Email: </label>
-                                </td>
-                                <td>
-                                    <input type="emali" id="email" name="email" placeholder="Digite seu e-mail" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label> Telefone: </label>
-                                </td>
-                                <td>
-                                    <input type="tel" id="telephone" name="telephone" placeholder="(xx) x xxxx-xxxx" />
                                 </td>
                             </tr>
                             <tr>
@@ -102,17 +88,54 @@
                                     <label> Escolha a cor da sua cafeteira: </label>
                                 </td>
                                 <td>
-                                    <input type="color" id="cor" name="cor" />
+                                    <input type="color" id="cor" name="cor" value="#9c0505" />
                                 </td>
                             </tr>
                             <tr>
-                                <th colspan="2">
+                                <td colspan="2">
+                                    <table border="0" cellpadding="10" bgcolor="#fff" width="611">
+                                        <tr>
+                                            <td>
+                                                <fieldset>
+                                                    <legend>
+                                                        <font color="green">
+                                                            <strong>Inscreva-se na lista de espera</strong>
+                                                        </font>
+                                                    </legend>
+                                                    </br>
+                                                    <label>Whatsapp:&nbsp;</label>
+                                                    <input type="tel" name="telephone" id="telephone" placeholder="(xx) xxxxx-xxxx" size="20"/>
+                                                </fieldset>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#fff" align="left">
+                                                <fieldset>
+                                                    <legend>
+                                                        <font color="green">
+                                                            <strong>Cadastrar usuario</strong>
+                                                        </font>
+                                                    </legend>
+                                                    </br>
+                                                    <label>E-mail:&nbsp;</label>
+                                                    <input type="email" name="e-mail" id="e-mail" placeholder="email@exemplo.com.br" size="24"/>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <label>Senha:&nbsp;</label>
+                                                    <input type="password" name="password" id="password" placeholder="Digite sua senha" size="24"/>
+                                                </fieldset>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
                                     <h4 align="center">
                                         <font color="#f00" face="arial">
-                                            PREENCHA OS CAMPOS ABAIXO PARA RECEBER SUA CAFETEIRA!
+                                            <strong>PREENCHA OS CAMPOS ABAIXO PARA RECEBER SUA CAFETEIRA!</strong>
                                         </font>
                                     </h4>
-                                </th>
+                                </td>
                             </tr>
                             <tr>
                                 <td>
@@ -147,6 +170,11 @@
                             </tr>
                         </table>
                     </form>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <img src="./img/safe.png" alt="Selo de site seguro" />
             </td>
         </tr>
     </table>
